@@ -13,7 +13,7 @@ Sistema de diagnóstico asistido por IA para detección de neumonía en radiogra
 - 📊 **Matplotlib/Seaborn** (Visualización)
 - ⚙️ **Scikit-learn** (Métricas)
 
-# 🏆 Comparativa de Modelos
+## 🏆 Comparativa de Modelos
 
 | Modelo          | Accuracy Test | Recall Test | Tiempo Entrenamiento |
 |-----------------|--------------|-------------|----------------------|
@@ -48,7 +48,7 @@ F1-Score:      94.9% ± 0.3
 2. streamlit run neu_app.py
 
 
-## Ejemplo de diagnóstico No Neumonia con explicación visual
+## Ejemplo de diagnóstico Normal con explicación visual
 ![Diagnóstico Neumonia](neu3.png) 
 
 
