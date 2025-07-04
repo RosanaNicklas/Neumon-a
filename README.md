@@ -12,7 +12,7 @@ Sistema de diagnóstico asistido por IA para detección de neumonía en radiogra
 - 📊 **Matplotlib/Seaborn** (Visualización)
 - ⚙️ **Scikit-learn** (Métricas)
 
-## 🏆 Comparativa de Modelos
+# 🏆 Comparativa de Modelos
 
 | Modelo          | Accuracy Test | Recall Test | Tiempo Entrenamiento |
 |-----------------|--------------|-------------|----------------------|
@@ -20,7 +20,8 @@ Sistema de diagnóstico asistido por IA para detección de neumonía en radiogra
 | ResNet50        | 0.92         | 0.95        | 600s                 |
 | **EfficientNet**| **0.94**     | **0.97**    | 800s                 |
 
-Ejemplo de diagnóstico Neumonia con explicación visual
+
+## Ejemplo de diagnóstico Neumonia con explicación visual
 ![Diagnóstico Neumonia](neu2.png) 
 
 
@@ -34,23 +35,24 @@ x = Dense(256, activation='relu')(x)
 x = Dropout(0.3)(x)
 predictions = Dense(1, activation='sigmoid')(x)
 
-🎯 Métricas Clave
+## 🎯 Métricas Clave
 
 Test Accuracy:   94.2% ± 0.3
 Recall:         97.1% ± 0.2  
 Precision:      92.8% ± 0.4
 F1-Score:      94.9% ± 0.3
 
-🖥️ Cómo Usar la Aplicación
+## 🖥️ Cómo Usar la Aplicación
 
-git clone
+git clone https://github.com/RosanaNicklas/Neumonia.git
 streamlit run neu_app.py
 
-Ejemplo de diagnóstico No Neumonia con explicación visual
+
+## Ejemplo de diagnóstico No Neumonia con explicación visual
 ![Diagnóstico Neumonia](neu3.png) 
 
 
-⚠️ Limitaciones Clínicas
+## ⚠️ Limitaciones Clínicas
 No detecta:
 
 Neumonías virales específicas
