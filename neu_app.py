@@ -59,6 +59,9 @@ st.markdown("""
         margin-top: 30px;
         color: #7f8c8d;
     }
+    @media screen and (max-width: 600px) {
+    .result-card { padding: 15px; }
+}        
 </style>
 """, unsafe_allow_html=True)
 
@@ -89,8 +92,12 @@ def load_model():
         return None
 
 model = load_model()
+if model:
+    model.make_predict_function()
 
 # Función mejorada de preprocesamiento
+# Antes de procesar la imagen en tu función
+
 def preprocess_image(img):
     try:
         # Convertir a RGB si es escala de grises
@@ -248,9 +255,6 @@ with st.sidebar:
     - Requiere validación médica
     """)
     
-    st.markdown("## 📊 Métricas de Rendimiento")
-    st.image("https://via.placeholder.com/300x200?text=Matriz+de+Confusión", 
-             caption="Matriz de confusión del modelo")
     
     st.markdown("## 📝 Instrucciones")
     st.markdown("""
