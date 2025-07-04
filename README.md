@@ -20,8 +20,9 @@ Sistema de diagnóstico asistido por IA para detección de neumonía en radiogra
 | ResNet50        | 0.92         | 0.95        | 600s                 |
 | **EfficientNet**| **0.94**     | **0.97**    | 800s                 |
 
+Ejemplo de diagnóstico Neumonia con explicación visual
 ![Diagnóstico Neumonia](neu2.png) 
-Ejemplo de diagnóstico con explicación visual
+
 
 ## 🏗️ Arquitectura Implementada
 
@@ -42,10 +43,12 @@ F1-Score:      94.9% ± 0.3
 
 🖥️ Cómo Usar la Aplicación
 
+git clone
 streamlit run neu_app.py
 
+Ejemplo de diagnóstico No Neumonia con explicación visual
 ![Diagnóstico Neumonia](neu3.png) 
-Ejemplo de diagnóstico con explicación visual
+
 
 ⚠️ Limitaciones Clínicas
 No detecta:
