@@ -1,7 +1,8 @@
 # 🏥 NeumoniaScan Pro - Detección de Neumonía por IA
 
+## *Interfaz principal de la aplicación*
 ![Interfaz Principal](neu1.png)  
-*Interfaz principal de la aplicación*
+
 
 ## 📌 Descripción
 
