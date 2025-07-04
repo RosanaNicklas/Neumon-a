@@ -43,9 +43,8 @@ Precision:      92.8% ± 0.4
 F1-Score:      94.9% ± 0.3
 
 ## 🖥️ Cómo Usar la Aplicación
-
-git clone https://github.com/RosanaNicklas/Neumonia.git
-streamlit run neu_app.py
+1. git clone https://github.com/RosanaNicklas/Neumonia.git
+2. streamlit run neu_app.py
 
 
 ## Ejemplo de diagnóstico No Neumonia con explicación visual
