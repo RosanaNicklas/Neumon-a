@@ -20,12 +20,12 @@ Sistema de diagnóstico asistido por IA para detección de neumonía en radiogra
 | ResNet50        | 0.92         | 0.95        | 600s                 |
 | **EfficientNet**| **0.94**     | **0.97**    | 800s                 |
 
-![Diagnóstico Normal](neu2.png) 
-Ejemplo de diagnóstico con explicación visu
+![Diagnóstico Neumonia](neu2.png) 
+Ejemplo de diagnóstico con explicación visual
 
 ## 🏗️ Arquitectura Implementada
 
-```python
+
 # EfficientNetV2B0 personalizado
 base_model = EfficientNetV2B0(weights='imagenet', include_top=False)
 x = GlobalAveragePooling2D()(base_model.output)
