@@ -1,4 +1,4 @@
-# 🏥 NeumoniaScan Pro - Detección de Neumonía por IA
+# 🏥 NeumoníaScan Pro - Detección de Neumonía por IA
 
 ## *Interfaz principal de la aplicación*
 ![Interfaz Principal](neu1.png)  
